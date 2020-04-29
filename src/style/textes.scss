@@ -1,0 +1,17 @@
+@media (min-width: 800px) {
+  div.textes {
+    margin-top: 100px;
+    margin-left: 150px;
+    padding-bottom: 300px;
+    max-width: 900px;
+  }
+}
+
+@media (max-width: 800px) {
+  div.textes {
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 100px;
+  }
+}

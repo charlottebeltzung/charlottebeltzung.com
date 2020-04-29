@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'LatinModern';
+  font-style: normal;
+  font-weight: normal;
+  src: url(fonts/lmsans10-regular-webfont.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'Gotu';
+  src:
+    url('fonts/subset-Gotu-Regular.woff2') format('woff2'),
+    url('fonts/subset-Gotu-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+div.header {
+  font-family: 'Gotu', sans-serif;
+  font-size: 53px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+@media (max-width: 800px) {
+  div.header {
+    font-size: 10vmin;
+  }
+}
+
+div.infos {
+  font-family: 'Gotu', sans-serif;
+  font-size: 22px;
+  line-height: 1.13182em;
+}
+
+@media (max-width: 800px) {
+  div.infos {
+    font-size: 4.8vmin;
+  }
+}
+
+div.cv {
+  font-family: 'Gotu', sans-serif;
+  font-size: 20px;
+  // line-height: 1.13182em;
+
+  .title {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 800px) {
+  div.cv {
+    font-size: 4.8vmin;
+
+    .date {
+      font-weight: bold;
+    }
+  }
+}

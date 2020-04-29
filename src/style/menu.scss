@@ -1,0 +1,40 @@
+@media (min-width: 800px) {
+  div.header {
+    margin-top: 40px;
+    margin-left: 50px;
+  }
+
+  div.menu {
+    margin-left: 70px;
+    height: 70px;
+    width: 550px;
+  }
+}
+
+@media (max-width: 800px) {
+  div.header {
+    margin: 20px;
+  }
+
+  div.menu {
+    padding-bottom: 10px;
+    white-space: nowrap;
+    text-align: center;
+
+    span {
+      font-size: 3.8vmin;
+    }
+  }
+}
+
+div.menu {
+  a,
+  a:visited {
+    text-decoration: none;
+    margin-top: 1px;
+    margin-right: 25px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    float: bottom;
+  }
+}

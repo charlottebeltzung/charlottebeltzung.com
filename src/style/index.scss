@@ -1,0 +1,28 @@
+@media (min-width: 800px) {
+  div.swapImage {
+    position: absolute;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  div.swapImage {
+    width: 100% !important;
+    display: inline-block;
+
+    .right {
+      float: right;
+    }
+
+    .left {
+      float: left;
+    }
+
+    img {
+      width: 60%;
+    }
+  }
+}
