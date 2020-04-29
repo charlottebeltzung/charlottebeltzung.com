@@ -1,0 +1,58 @@
+@media (min-width: 800px) {
+    body.vue {
+        margin: 70px;
+
+        div.row {
+            width: 100%;
+            max-width: 1100px;
+            margin: auto;
+            padding-bottom: 30px;
+            overflow:auto;
+            display: flex;
+            justify-content: center;
+
+            .column {
+                float: left;
+                margin: auto;
+            }
+
+            .left {
+                padding-right: 2.5%;
+            }
+
+            .right {
+                padding-left: 2.5%;
+            }
+
+            .center {
+                padding-left: 1.25%;
+                padding-right: 1.25%;
+            }
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    body.vue {
+        margin: 20px;
+
+        div.row {
+            width: 100%;
+            // padding-bottom: 20px;
+            overflow:auto;
+            
+            .column {
+                width: 100% ! important;
+                padding-bottom: 20px;
+            }
+        }
+        img {
+            width: 100% ! important;
+            padding-bottom: 20px ! important;
+        }
+    }
+}
