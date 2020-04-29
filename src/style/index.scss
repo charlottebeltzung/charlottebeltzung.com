@@ -1,28 +1,53 @@
 @media (min-width: 800px) {
-  div.swapImage {
-    position: absolute;
-
-    img {
+  body.index {
+    margin: 70px;
+    min-height: 1200px;
+    
+    div.index {
       width: 100%;
+      max-width: 1100px;
+      margin: auto;
+      position: relative;
+      margin-bottom: 70px;
+    }
+
+    div.index2 {
+      width: 100%;
+      max-width: 1100px;
+      margin: auto;
+      position: relative;
+      top: -170px;
+      left: -40px;
+    }
+
+    div.swapImage {
+      position: absolute;
+  
+      img {
+        width: 100%;
+      }
     }
   }
+
 }
 
 @media (max-width: 800px) {
-  div.swapImage {
-    width: 100% !important;
-    display: inline-block;
-
-    .right {
-      float: right;
-    }
-
-    .left {
-      float: left;
-    }
-
-    img {
-      width: 60%;
+  body.index {
+    div.swapImage {
+      width: 100% !important;
+      display: inline-block;
+  
+      .right {
+        float: right;
+      }
+  
+      .left {
+        float: left;
+      }
+  
+      img {
+        width: 60%;
+      }
     }
   }
 }
