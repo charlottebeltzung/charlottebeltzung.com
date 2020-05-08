@@ -1,3 +1,4 @@
 - Revoir textes.html
 - Revoir veillee.html
 - Optimiser les images
+- Faire les parties mobiles
