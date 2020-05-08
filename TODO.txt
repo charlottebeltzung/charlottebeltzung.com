@@ -1,0 +1,3 @@
+- Revoir textes.html
+- Revoir veillee.html
+- Optimiser les images
