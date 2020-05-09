@@ -12,6 +12,11 @@
         img {
             width: 100%;
         }
+
+        span.color:hover,
+        span.color:active {
+            color: yellow;
+        }
     }
 }
 
