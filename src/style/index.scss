@@ -1,19 +1,21 @@
 @media (min-width: 800px) {
-  div.images {
-    min-height: 1000px;
-    width: 100%;
-    max-width: 1100px;
-    margin: auto;
-    position: relative;
-    top: -170px;
-    left: -40px;
-  }
-
-  div.swapImage {
-    position: absolute;
-
-    img {
+  body.index {
+    div.images {
+      min-height: 1000px;
       width: 100%;
+      max-width: 1100px;
+      margin: auto;
+      position: relative;
+      top: -170px;
+      left: -40px;
+    }
+
+    div.swapImage {
+      position: absolute;
+
+      img {
+        width: 100%;
+      }
     }
   }
 }

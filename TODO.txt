@@ -1,4 +1,3 @@
-- Revoir textes.html
-- Revoir veillee.html
+- Revoir vue.html
 - Optimiser les images
-- Faire les parties mobiles
+- Factoriser css
