@@ -1,6 +1,10 @@
 @media (min-width: 800px) {
   body {
     margin: 70px;
+    div.silhouette {
+      flex: 0 0 150px;
+      width: 150px;
+    }
     // min-height: 1200px;
   }
 }
