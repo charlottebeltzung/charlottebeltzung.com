@@ -7,6 +7,6 @@ A vérifier:
 - CV pas alignée avec les autres
 - Fourpapier mobile problèmes
 - Vérifier vue.html + crédit photo
-
+- sauvages
 
 Fait:
