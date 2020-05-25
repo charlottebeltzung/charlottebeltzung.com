@@ -1,7 +1,7 @@
 
 - Optimiser les images
 - Factoriser css
-- ajoute rliens sauvages
+- ajoute liens sauvages + revoir mobile
 
 A vérifier:
 - CV pas alignée avec les autres
