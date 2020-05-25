@@ -1,12 +1,14 @@
 
 - Optimiser les images
 - Factoriser css
-
+- ajoute rliens sauvages
 
 A vérifier:
 - CV pas alignée avec les autres
 - Fourpapier mobile problèmes
 - Vérifier vue.html + crédit photo
 - sauvages
+- grospied
+
 
 Fait:

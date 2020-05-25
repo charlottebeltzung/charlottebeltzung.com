@@ -1,1 +1,3 @@
 npm run start:dev
+
+identify -format "%[fx:w/h]:%M\n" *
