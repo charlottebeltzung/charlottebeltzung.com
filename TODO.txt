@@ -9,6 +9,8 @@ A vérifier:
 - Vérifier vue.html + crédit photo
 - sauvages
 - grospied
+- coco
+- melonfesse
 
 
 Fait:
